@@ -9,7 +9,7 @@ Autoencoder Architecture: Includes a convolutional encoder to compress images an
 
 Image Similarity Search: Utilizes cosine similarity on latent vectors to find visually similar images.
 
-Evaluation Metrics: Precision@k, Recall@k, and Retrieval Accuracy@k are calculated to evaluate the performance of the similarity search.
+Evaluation Metrics: Precision, Recall, and Retrieval Accuracy are calculated to evaluate the performance of the similarity search.
 
 Visualization: Displays query images along with the top-k most similar images.
 
@@ -58,7 +58,7 @@ display_query_and_results(query_image, top_indices, test_images, top_k=5)
 
 4. Evaluate Similarity Search
 
-Calculate Precision@k, Recall@k, and Retrieval Accuracy@k:
+Calculate Precision, Recall, and Retrieval Accuracy:
 
 evaluate_similarity_search(model, latent_vectors, test_loader, top_k=5)
 
